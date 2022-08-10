@@ -78,19 +78,20 @@ nav ul li a {
 
 .home {
   font-family: "Poppins", sans-serif;
-  font-size: 22px;
+  font-size: 40px;
   color: white;
 }
 
 .home .detail-home {
   font-family: "Poppins", sans-serif;
-  font-size: 20px;
+  font-size: 30px;
   color: #ffd100;
   font-weight: 500;
 }
 
 .home-img {
-  margin-left: 100px;
+  margin-left: 120px;
+  padding-left: 90px;
 }
 
 .card-content {
@@ -298,6 +299,11 @@ footer {
   gap: 70px;
 }
 
+.footer-2 a {
+  text-decoration: none;
+  color: white;
+}
+
 .foot-1 {
   font-family: "Poppins", sans-serif;
   font-size: 20px;
@@ -321,6 +327,12 @@ footer {
   font-size: 20px;
   font-weight: 500;
   text-align: center;
+  color: white;
+}
+
+.foot-4 a {
+  text-decoration: none;
+  color: white;
 }
 
 .copy-right h3 {
@@ -378,6 +390,7 @@ footer {
   .home-img {
     width: 100%;
     margin-left: 10px;
+    padding-left: 0;
   }
 
   .card {
@@ -473,12 +486,16 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
+  nav ul {
+    width: 50%;
+  }
+
   .home-utama {
     padding: 40px;
   }
 
   .home {
-    font-size: 25px;
+    font-size: 30px;
   }
 
   .home .detail-home {
@@ -504,7 +521,7 @@ footer {
   }
 
   .Project-detail {
-    margin-left: 40px;
+    margin-left: 20px;
   }
 
   .Project-2 {
@@ -551,6 +568,10 @@ footer {
   }
 }
 @media only screen and (max-width: 1200px) {
+  nav ul {
+    width: 40%;
+  }
+
   .home-utama {
     padding: 40px;
   }
@@ -581,7 +602,7 @@ footer {
   }
 
   .Project-detail {
-    margin-left: 40px;
+    margin-left: 20px;
   }
 
   .Project-2 {

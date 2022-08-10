@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Porto</title>
+
+    <!-- Style Css -->
+    <link rel="stylesheet" href="asset/Style.css" />
+
+    <!-- CDN Fontawnsome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- CDN Aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <h1>Rafi Sakhi</h1>
+        </div>
+        <ul class="nav__links">
+          <li class="nav-items"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-items"><a class="nav-link" href="#Project">Project</a></li>
+          <li class="nav-items"><a class="nav-link" href="#contac">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+        <div class="container" id="home">
+          <div class="home-utama">
+            <div class="home" data-aos="fade-right" data-aos-duration="1500">
+              <h2>Hi There! I’m</h1>
+              <h2>Rafi Sakhi</h3>         
+              <div class="detail-home">
+                <p>Build Your Website HTML Based in solo</p>
+              </div>
+            </div>
+            <div class="home-img"  data-aos="fade-left" data-aos-duration="1500">
+              <img src="asset/homePro.png"  alt=""  />
+            </div>
+          </div>
+
+          <div class="card-content">
+            <div class="card-skill" data-aos="fade-down" data-aos-duration="1000">
+              <div class="log-skill">
+                <h2>My Skill</h2>
+              </div>
+              <div class="card">
+                <div class="skill">
+                  <img src="asset/BE.png" alt="" width="50%" />
+                  <p>Back-end</p>
+                </div>
+                <div class="skill">
+                  <img src="asset/FE.png" alt="" width="50%" />
+                  <p>Front-end</p>
+                </div>
+                <div class="skill ui">
+                  <img src="asset/DE.png" alt="" width="50%" />
+                  <p>Ui/Ux</p>
+                </div>
+              </div>
+              <div class="p-skill">
+                <p>
+                  website developer use <br />
+                  Css javascript html php
+                </p>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="Project" id="Project">
+      <h1>My Project</h1>
+      <div class="Project-1">
+        <div class="project-1" data-aos="fade-right" data-aos-duration="1500">
+          <img src="asset/Project1.png" width="50%" alt="" />
+        </div>
+        <div class="Project-detail" data-aos="fade-up" data-aos-duration="1500">
+          <h2>Web Portofolio v1.0</h2>
+          <p>I make website portofolio use Html,Boostrap and Javascipt</p>
+        </div>
+      </div>
+      <div class="Project-2">
+        <div class="Project-detail2" data-aos="fade-up" data-aos-duration="1500">
+          <h2>Design Ui/Ux Aplikasi Vaksin</h2>
+          <p>I make Aplikasi in Figma Use Prototype</p>
+        </div>
+        <div class="project-2" data-aos="fade-down-right" data-aos-duration="1500" >
+          <img src="asset/vaksinApp.png" width="50%" alt="" />
+        </div>
+      </div>
+      <div class="Project-1">
+        <div class="project-1" data-aos="fade-down" data-aos-duration="1500">
+          <img src="asset/Rfid.png" width="50%" alt="" />
+        </div>
+        <div class="Project-detail" data-aos="fade-up" data-aos-duration="1500">
+          <h2>RFID With NodeMcu</h2>
+          <p>
+            limitied experience RFID With Nodemcu for Open The Door use RFID
+          </p>
+        </div>
+      </div>
+      <div class="Project-2">
+        <div class="Project-detail2" data-aos="fade-right" data-aos-duration="1500">
+          <h2>Design Ui/Ux Aplikasi Resep</h2>
+          <p>make Aplikasi in Figma Use Prototype</p>
+        </div>
+        <div class="project-2" data-aos="fade-up" data-aos-duration="1500">
+          <img src="asset/Project1.png" width="50%" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="contac" id="contac">
+      <h1>Contact Us</h1>
+      <div class="contac-utama">
+        <div class="contac-form" data-aos="fade-down-right" data-aos-duration="1500">
+          <form action="https://formsubmit.co/your@email.com" method="POST">
+            <input type="email" name="email" id="" placeholder="Email Us.." />
+            <button type="submit">
+              <i class="fa-solid fa-paper-plane"></i>
+              Send
+            </button>
+          </form>
+        </div>
+        <div class="contac-detail" >
+          <div class="contac-1">
+            <span><i class="fa-solid fa-envelope"></i></span>
+            <span>Rafisakhi57@gmail.com</span>
+          </div>
+          <div class="contac-2">
+            <span><i class="fa-brands fa-whatsapp"></i></i></span>
+            <span>+62895321089736</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-1">
+        <div class="footer-2">
+          <div class="foot-1">
+            <i class="fa-brands fa-instagram fa-xl "></i>
+            <p>Instagram</p>
+          </div>
+          <div class="foot-2">
+            <i class="fa-solid fa-basketball fa-xl"></i>
+            <p>Dribble</p>
+          </div>
+          <div class="foot-3">
+            <i class="fa-brands fa-twitter fa-xl"></i>
+            <p>Twitter</p>
+          </div>
+          <div class="foot-4">
+            <i class="fa-brands fa-linkedin fa-xl"></i>
+            <p>Linkedin</p>
+          </div>
+        </div>
+        <div class="copy-right">
+          <h3>CopyRight ModeDark Developer &#169 Since 2022</h3>
+        </div>
+      </div>
+    </footer>
+    </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <script src="asset/script.js"></script>
+  </body>
+</html>

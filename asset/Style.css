@@ -1,0 +1,628 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,400;1,500;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;0,800;0,900;1,100;1,200;1,400;1,700;1,800;1,900&family=Quicksand:wght@700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  z-index: 1;
+  background-color: white;
+  position: sticky;
+  top: 0;
+}
+
+main {
+  z-index: 1;
+}
+
+nav {
+  display: flex;
+  padding: 15px;
+  justify-content: space-around;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  width: 30%;
+  justify-content: space-between;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: #27499b;
+}
+
+.logo {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: #27499b;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px 0;
+  background-color: #27499b;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.container {
+  background-color: #27499b;
+}
+
+.home-utama {
+  display: flex;
+  padding: 120px;
+}
+
+.home {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  color: white;
+}
+
+.home .detail-home {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: #ffd100;
+  font-weight: 500;
+}
+
+.home-img {
+  margin-left: 100px;
+}
+
+.card-content {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 150px;
+}
+
+.card-skill {
+  width: 700px;
+  height: 400px;
+  border-radius: 20px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.log-skill {
+  padding: 5px;
+  text-align: center;
+}
+
+.log-skill h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.p-skill {
+  padding: 5px;
+  text-align: center;
+}
+
+.p-skill p {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.card {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.skill {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  background-color: #27499b;
+  box-shadow: 0 5px 1px rgb(53, 53, 51);
+}
+
+.skill img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 50%;
+}
+
+.skill p {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+}
+
+.Project {
+  margin-top: 200px;
+}
+
+.Project h1 {
+  margin-left: 100px;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.Project-1 {
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-1 img {
+  width: 100%;
+}
+
+.project-2 img {
+  width: 100%;
+}
+
+.Project-detail {
+  margin-left: 200px;
+}
+
+.Project-detail h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.Project-detail p {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+.Project-2 {
+  display: flex;
+  margin-top: 100px;
+  padding: 100px;
+  justify-content: space-between;
+  background-color: #27499b;
+}
+
+.Project-detail2 {
+  margin-right: 200px;
+  color: white;
+}
+
+.Project-detail2 h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.Project-detail2 p {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.contac h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 20px;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.contac-utama {
+  display: flex;
+  padding: 100px;
+  background-color: #4e59e3;
+}
+
+.contac-form {
+  padding: 20px;
+}
+
+.contac-form button {
+  width: 100px;
+  height: 50px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 20px;
+  cursor: pointer;
+  color: white;
+  background-color: #27499b;
+}
+
+input[type="email"] {
+  width: 550px;
+  height: 50px;
+  padding: 5px 10px;
+  margin: 8px 0;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.contac-detail {
+  padding: 20px;
+  position: relative;
+  top: 50px;
+  color: white;
+}
+
+.contac-1 {
+  margin: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+.contac-2 {
+  margin: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+footer {
+  background-color: #27499b;
+  padding: 80px;
+}
+
+.footer-2 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  gap: 70px;
+}
+
+.foot-1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+.foot-2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+.foot-3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+.foot-4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.copy-right h3 {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  color: white;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 640px) {
+  .hamburger {
+    display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav__links {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .nav-items {
+    margin: 16px 0;
+  }
+
+  .nav__links.active {
+    left: 0;
+  }
+
+  .home-utama {
+    flex-direction: column;
+    padding: 40px;
+  }
+
+  .home-img {
+    width: 100%;
+    margin-left: 10px;
+  }
+
+  .card {
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 20px;
+  }
+
+  .skill {
+    margin: 20px;
+  }
+
+  .card-skill {
+    margin: 20px;
+    height: auto;
+  }
+
+  .Project-1 {
+    flex-direction: column;
+    padding: 40px;
+  }
+
+  .Project-1 img {
+    width: 100%;
+  }
+
+  .Project-detail {
+    margin-left: 0;
+  }
+
+  .Project-2 {
+    flex-direction: column;
+    padding: 40px;
+  }
+
+  .Project-2 img {
+    width: 100%;
+    order: 1;
+  }
+
+  .Project-detail2 {
+    margin-right: 0;
+    order: 2;
+  }
+
+  .contac h1 {
+    font-size: 40px;
+    padding: 10px;
+    margin-top: 100px;
+  }
+
+  .contac-utama {
+    flex-direction: column;
+    padding: 40px;
+  }
+
+  .contac-form button {
+    width: 100%;
+    height: 50px;
+  }
+
+  input[type="email"] {
+    width: 100%;
+  }
+
+  .contac-detail {
+    position: relative;
+    top: 0;
+  }
+
+  .contac-1 {
+    font-size: 15px;
+  }
+
+  .contac-2 {
+    font-size: 15px;
+  }
+
+  .footer-2 {
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 10px;
+  }
+
+  .footer-2 {
+    gap: 40px;
+  }
+
+  .copy-right h3 {
+    padding-top: 12px;
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .home-utama {
+    padding: 40px;
+  }
+
+  .home {
+    font-size: 25px;
+  }
+
+  .home .detail-home {
+    font-size: 20px;
+  }
+
+  .home-img img {
+    width: 100%;
+  }
+
+  .card-skill {
+    margin: 30px;
+  }
+
+  .Project-1 {
+    padding: 20px;
+    margin-top: 50px;
+    flex-direction: column;
+  }
+
+  .Project-1 img {
+    width: 100%;
+  }
+
+  .Project-detail {
+    margin-left: 40px;
+  }
+
+  .Project-2 {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .Project-2 img {
+    width: 100%;
+    order: 1;
+  }
+
+  .Project-detail2 {
+    order: 2;
+    margin-right: 40px;
+  }
+
+  .contac h1 {
+    font-size: 40px;
+    padding: 10px;
+    margin-top: 100px;
+  }
+
+  .contac-utama {
+    flex-direction: column;
+    padding: 40px;
+  }
+
+  input[type="email"] {
+    width: 100%;
+  }
+
+  .contac-detail {
+    position: relative;
+    top: 0;
+  }
+
+  .contac-1 {
+    font-size: 15px;
+  }
+
+  .contac-2 {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .home-utama {
+    padding: 40px;
+  }
+
+  .home {
+    font-size: 25px;
+  }
+
+  .home .detail-home {
+    font-size: 20px;
+  }
+
+  .home-img img {
+    width: 100%;
+  }
+
+  .card-skill {
+    margin: 30px;
+  }
+
+  .Project-1 {
+    padding: 20px;
+    margin-top: 50px;
+  }
+
+  .Project-1 img {
+    width: 80%;
+  }
+
+  .Project-detail {
+    margin-left: 40px;
+  }
+
+  .Project-2 {
+    padding: 20px;
+  }
+
+  .Project-2 img {
+    width: 80%;
+    order: 1;
+  }
+
+  .Project-detail2 {
+    order: 2;
+    margin-right: 40px;
+  }
+
+  .contac h1 {
+    font-size: 40px;
+    padding: 10px;
+    margin-top: 100px;
+  }
+
+  .contac-utama {
+    flex-direction: column;
+    padding: 40px;
+  }
+
+  input[type="email"] {
+    width: 100%;
+  }
+
+  .contac-detail {
+    position: relative;
+    top: 0;
+  }
+
+  .contac-1 {
+    font-size: 15px;
+  }
+
+  .contac-2 {
+    font-size: 15px;
+  }
+}
